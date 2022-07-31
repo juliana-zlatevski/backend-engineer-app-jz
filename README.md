@@ -1,4 +1,16 @@
-# Syndio Backend App
+# Syndio Backend App - Juliana Zlatevski
+
+## How to Run
+
+- clone repo
+- in your terminal, run the following commands:
+  - `go mod tidy`
+  - `go run main.go`
+  - `command + t` to open a new terminal tab, and then `export $(cat .env)`
+  - `curl localhost:$PORT/employees`
+- you should receive a JSON response in your terminal
+- to make the same request from your browser, go to `http://localhost:8080/employees`
+- note: the PORT can be found and changed within the included .env file if needed
 
 Using the `employees.db` sqlite database in this repository with the following table/data:
 
